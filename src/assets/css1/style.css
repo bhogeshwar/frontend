@@ -1,0 +1,151 @@
+body{
+    margin:0 auto;
+    
+    }
+    /* container */
+    .container{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    }
+   
+    /* logo */
+    .logo{
+    float: left;
+    padding: 15px;
+    }
+    
+    /* main menu */
+    .main-menu > ul{
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    }
+    .main-menu > ul> li{
+    float: right;
+    display: inline-block;
+    }
+    .main-menu > ul> li> a{
+    
+    display: block;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    }
+    /*.main-menu > ul> li> a:hover{
+    background-color: rgb(238, 13, 238);
+    }
+    /*--drop menu*/
+    .drop{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    display: none;
+    z-index: 999;
+    }
+    
+    .drop > li > a{
+    color: turquoise;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: small;
+    font-family: sans-serif;
+    background-color: black;
+    }
+    /* .drop>li>a:hover{
+    background-color:
+    } */
+    .main-menu > ul> li:hover .drop{
+    display: block;
+    }
+    /* searchbar */
+    .searchbar{
+    float: right;
+    padding-top: 25px;
+    padding-right: 100px;
+    }
+    .clearfix{
+    clear: both;
+    }
+    /*banner*/
+    .banner {
+    width: 1000px;
+    height: 582px;
+    margin: auto;
+    overflow: hidden;
+    }
+    .banner img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    }
+    /* content holder */
+    
+    .content-holder{
+    width: 1000px;
+    height: 150px;
+    padding: 15px;
+    background-color:#eae7dc;
+    margin: 25px auto;
+    }
+    .content-holder h1{
+    font-size: 1.5em;
+    font-family: monospace;
+    color: #e85a4f;
+    }
+    .content-holder p{
+    font-size: small;
+    font-family: sans-serif;
+    }
+    .Main-Footer{
+    background-color: black;
+    color: white;
+    width: 1450px;
+    padding: 25px;
+    margin-top: 25px;
+    
+    }
+    .footer{
+        width: 725px;
+        height: auto;
+        float: left;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    .footer > ul {
+    padding: 0px;
+    margin: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    }
+    .footer > ul> li{
+    padding-right: 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+.footer >ul > li > a{
+    color: blue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+}
+.footer address p{
+    font-size: small;
+}
+.footer address a{
+    color:#cccccc;
+}
+.content img{
+    max-width: 100%;
+    height: 650px;
+}
+.Fruits {
+    width: 450px;
+    height: auto;
+    float: left;
+}
+.Fruits >img{
+    padding: 10px;
+}

@@ -1,0 +1,9 @@
+.my_form{
+    padding: 15px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3) ;
+}
+.heading{
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+}
